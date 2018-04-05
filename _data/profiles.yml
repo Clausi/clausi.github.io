@@ -1,0 +1,9 @@
+- name: Github
+  link: https://www.github.com/clausi
+  icon: github
+- name: Xing
+  link: https://www.xing.com/profile/Alexander_Linke16/
+  icon: xing
+- name: Twitter
+  link: https://www.twitter.com/cklausi
+  icon: twitter

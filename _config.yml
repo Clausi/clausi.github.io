@@ -1,0 +1,14 @@
+name: Alex Linke
+
+repository: https://github.com/Clausi/clausi.github.io
+
+plugins:
+- jekyll-github-metadata
+- jekyll-mentions
+- jekyll-redirect-from
+- jekyll-sitemap
+- jemoji
+
+sass:
+  style: compressed
+  sass_dir: _sass

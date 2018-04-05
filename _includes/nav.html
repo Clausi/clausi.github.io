@@ -1,0 +1,13 @@
+<nav class="navigation uk-flex uk-flex-center uk-flex-middle">
+    <ul class="uk-iconnav">
+        <li>
+            <a href="#" title="Skills" uk-icon="icon: code; ratio: 3"></a>
+        </li>
+
+        {% for profile in site.data.profiles %}
+        <li>
+            <a href="{{ profile.link }}" title="{{ profile.name }}" uk-icon="icon: {{ profile.icon }}; ratio: 3"></a>
+        </li>
+        {% endfor %}
+    </ul>
+</nav>
