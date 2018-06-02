@@ -11,10 +11,14 @@
 </head>
 
 <body>
-	<div class="container">
-		{% include nav.html %} 
-
-		{{ content }}
+	<div class="uk-container wrapper">
+		<div class="container uk-flex uk-flex-center uk-flex-middle">
+			{% include nav.html %}
+			<ul class="uk-switcher nav-switcher">
+				{% include skills.html %} {% include contact.html %}
+			</ul>
+			{{ content }}
+		</div>
 	</div>
 </body>
 

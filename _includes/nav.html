@@ -1,7 +1,7 @@
-<nav class="navigation uk-flex uk-flex-center uk-flex-middle">
-    <ul class="uk-iconnav">
+<nav class="navigation">
+    <ul class="uk-iconnav" uk-switcher="connect: .nav-switcher">
         <li>
-            <a href="#" title="Skills" uk-icon="icon: code; ratio: 3"></a>
+            <a href="#skills" title="Skills" uk-icon="icon: code; ratio: 3"></a>
         </li>
 
         {% for profile in site.data.profiles %}
@@ -9,5 +9,9 @@
             <a href="{{ profile.link }}" title="{{ profile.name }}" uk-icon="icon: {{ profile.icon }}; ratio: 3"></a>
         </li>
         {% endfor %}
+
+        <li>
+            <a href="#contact" title="Contact" uk-icon="icon: mail; ratio: 3"></a>
+        </li>
     </ul>
 </nav>
