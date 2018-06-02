@@ -1,5 +1,5 @@
 <nav class="navigation">
-    <ul class="uk-iconnav" uk-switcher="connect: .nav-switcher">
+    <ul class="uk-iconnav">
         {% for profile in site.data.profiles %}
         <li>
             <a href="{{ profile.link }}" title="{{ profile.name }}" uk-icon="icon: {{ profile.icon }}; ratio: 3"></a>
