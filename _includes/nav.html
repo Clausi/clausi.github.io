@@ -1,17 +1,9 @@
 <nav class="navigation">
     <ul class="uk-iconnav" uk-switcher="connect: .nav-switcher">
-        <li>
-            <a href="#skills" title="Skills" uk-icon="icon: code; ratio: 3"></a>
-        </li>
-
         {% for profile in site.data.profiles %}
         <li>
             <a href="{{ profile.link }}" title="{{ profile.name }}" uk-icon="icon: {{ profile.icon }}; ratio: 3"></a>
         </li>
         {% endfor %}
-
-        <li>
-            <a href="#contact" title="Contact" uk-icon="icon: mail; ratio: 3"></a>
-        </li>
     </ul>
 </nav>
