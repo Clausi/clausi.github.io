@@ -1,7 +1,17 @@
-html, body {
+html, body, .juli {
   height: 100%;
 }
 
-.wrapper, .container {
-  height: 100%;
+.container {
+  height: 90%;
+}
+
+.juli {
+  h1 {
+    color: #999999;
+  }
+
+  .navi {
+    padding-top: 15px;
+  }
 }
