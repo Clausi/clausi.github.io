@@ -2,11 +2,13 @@
 ---
 
 $global-link-color: #DA7D02;
+$button-default-color: #999;
 
 @import "uikit/src/scss/variables-theme.scss";
 @import "uikit/src/scss/mixins-theme.scss";
 // place custom mixin overrides here
 @import "uikit/src/scss/uikit-theme.scss";
 
+@import "variables";
 @import "base";
 @import "nav";
